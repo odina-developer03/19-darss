@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+.Added {
+    background-image: url(images/banner-image.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: #EDF1F3;
+    height: 700px;
+    width: 100%;
+}
+.wrapper {
+    padding-top: 100px;
+}
+
+@media only screen and (max-width:700px) {
+    .Added {
+        background-position: center top;
+    }
+   
+}
+.text {
+    font-size: 100px;
+    font-weight: 100;
+    width: 30vw;
+    line-height: 100px;
+}
+@media only screen and (max-width:1100px) {
+    .text {
+        font-size: 80px;
+        line-height: 80px;
+    }
+}
+@media only screen and (max-width:900px) {
+    .text {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+@media only screen and (max-width:700px) {
+    .text {
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+@media only screen and (max-width:500px) {
+    .text {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+@media only screen and (max-width:300px) {
+    .text {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+.added {
+    background-image: url(images/banner-image.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: #EDF1F3;
+    
+    height: 700px;
+    width: 100%;
+}
+.wrapper {
+    padding-top: 100px;
+}
+@media only screen and (max-width:700px) {
+    .added {
+        background-position: center top;
+    }
+   
+}
+.text2 {
+    font-size: 100px;
+    font-weight: 100;
+    width: 40vw;
+    line-height: 100px;
+}
+@media only screen and (max-width:1100px) {
+    .text2 {
+        font-size: 80px;
+        line-height: 80px;
+    }
+}
+@media only screen and (max-width:900px) {
+    .text2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+}
+@media only screen and (max-width:700px) {
+    .text2 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+}
+@media only screen and (max-width:500px) {
+    .text2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+@media only screen and (max-width:300px) {
+    .text2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+.text3 {
+    width: 80%;
+    /* font-weight: 100; */
+}
